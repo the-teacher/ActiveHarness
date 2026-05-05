@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Ruby / Bundler
+/.bundle
+/vendor/bundle
+Gemfile.lock
+
+# Logs & temp files
+log/
+tmp/
+*.log
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Coverage
+/coverage/
+
+*.ai.md
