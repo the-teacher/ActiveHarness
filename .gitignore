@@ -28,4 +28,7 @@ tmp/
 # Coverage
 /coverage/
 
+# Ignore vendor directory for dependencies
+/vendor
+
 *.ai.md
