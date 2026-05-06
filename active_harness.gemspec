@@ -1,10 +1,12 @@
 require_relative "lib/active_harness/core/version"
 
 Gem::Specification.new do |spec|
-  spec.name    = "active_harness"
-  spec.version = ActiveHarness::VERSION
-  spec.authors = ["the-teacher"]
-  spec.summary = "DSL for describing and running AI agents with safety layers"
+  spec.name     = "active_harness"
+  spec.version  = ActiveHarness::VERSION
+  spec.authors  = ["the-teacher"]
+  spec.email    = ["the-teacher@github.com"]
+  spec.homepage = "https://github.com/the-teacher/active_harness"
+  spec.summary  = "DSL for describing and running AI agents with safety layers"
   spec.description = <<~DESC
     ActiveHarness provides a DSL for describing AI agents and an engine for
     their execution, with built-in prompt-injection protection (guard layer),
